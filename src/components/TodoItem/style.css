@@ -1,0 +1,36 @@
+.todo-item {
+  padding: 6px 6px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid grey;
+  border-radius: 4px;
+  margin: 1rem 0rem;
+}
+
+.todo-item span {
+  font-size: 1.6rem;
+  width: 80%;
+}
+
+.btn-group {
+  height: 3rem;
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.check-btn {
+  padding: 6px 6px;
+  border: 1px solid rgb(0, 217, 255);
+  border-radius: 4px;
+  background-color: rgb(0, 153, 255);
+  color: white;
+}
+
+.delete-btn {
+  padding: 6px 6px;
+  border: 1px solid rgb(255, 123, 0);
+  border-radius: 4px;
+  background-color: rgb(250, 148, 90);
+  color: white;
+}

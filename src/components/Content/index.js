@@ -10,6 +10,7 @@ function Content(props) {
         <ListTodo
           todoList={props.todoList}
           doneTodo={props.doneTodo}
+          undoneTodo={props.undoneTodo}
           removeTodo={props.removeTodo}
         />
       </div>

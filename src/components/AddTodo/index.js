@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./style.css";
 
 function AddTodo(props) {
   const [value, setValue] = useState("");
@@ -9,6 +10,7 @@ function AddTodo(props) {
     props.addTodo(value);
     setValue("");
   }
+
   return (
     <div>
       <form onSubmit={handleSubmit}>
@@ -17,6 +19,7 @@ function AddTodo(props) {
           name="addtodo"
           value={value}
           onChange={e => setValue(e.target.value)}
+          placeholder="Add Todo...."
         />
       </form>
     </div>
